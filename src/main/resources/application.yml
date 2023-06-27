@@ -1,0 +1,27 @@
+spring:
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 587
+    username: 070c60f464f678
+    password: fcb466724a31bc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+sendinblue:
+  api-key: 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
+  from-email: joice.jessica@akarinti.tech
+  from-name: joiceAIT
+
+fazzpass:
+  merchant-key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoxNTl9.rTDgAAEvTZ8P6tEQ06Eltbwci41_wu43DbNrZOk9Eio
+
+twilio:
+  account-sid: ACcec92f4c7120d47c3814b8f1830af3e3
+  auth-token: 1de19f76e7b570114923e417f58b25d0
+  from-number: +12707146923
+
